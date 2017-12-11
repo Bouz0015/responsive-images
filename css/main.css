@@ -1,0 +1,50 @@
+ul {
+  list-style:none;
+}
+li {
+  float:left;
+  margin-top:2.5%;
+}
+picture{
+    width: 90%;
+}
+img{
+  width:90%;
+  transition: transform 1.5s ease-in;
+}
+img:hover{
+  z-index:20;
+  border:8px solid #789987;
+  transform: translate(50px, 100px);
+ 
+}
+@media screen and (min-width: 600px) {
+  li{
+    width: 50%;
+  }
+  img:hover{
+  transform: rotate(360deg);
+}
+}
+@media screen and (min-width: 1200px) {
+  li{
+      width:25%;
+  }
+    img:hover{
+        transform: skew(20deg, 10deg);
+    }
+}
+/**
+
+ALL IMAGES USED ARE FROM:
+
+Markus Spiske - https://500px.com/markusspiske 
+-Carrots, Concert Crowd, Stage
+
+Yinan Chen - https://500px.com/webmaster85 
+-Castlerock Wisconsin, Gibraltar Rock Wisconsin
+
+Fahim Akhter - https://500px.com/fahimakhter 
+-Pakistan
+
+**/
